@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>
+		Form validation using HTML
+		and JavaScript
+	</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="wrapper">
+
+
+        <form name="RegForm"
+		onsubmit="return validation()">
+		<legend>
+			Name:
+        </legend>
+			<input type="text" size="65"
+				name="Name"
+				placeholder="safdar imam"/>
+		<br />
+		<legend>
+			Address:
+        </legend>
+			<input type="text" size="65"
+				name="Address"
+				placeholder="Bangalore, Karnataka"/>
+		<br />
+		<legend>
+			E-mail Address:
+        </legend>
+			<input type="text" size="65"
+				name="EMail"
+				placeholder="demo@example.com"/>
+		<br />
+		<legend>
+            Password:
+        </legend>
+			<input type="password" size="65"
+				name="Password" />
+		<br />
+		<br />
+		<legend>
+			Select Your Course: 
+        </legend>
+			<select value="" name="Subject">
+				<option>Select Course</option>
+				<option>BTECH</option>
+				<option>BBA</option>
+				<option>BCA</option>
+				<option>B.COM</option>
+			</select>
+		<br />
+		<br />
+		<legend>
+			Comments:
+        </legend>
+			<textarea cols="55" name="Comment"> </textarea>
+		<legend>
+            <button  type="submit" value="Send"
+            name="Submit" >Submit</button>
+			<button type="reset" value="Reset"
+            name="Reset" >Reset</button>
+        </legend>
+	</form>
+    </div>
+	
+	<script src="script.js"></script>
+</body>
+
+</html>

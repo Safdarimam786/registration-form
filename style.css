@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+div {
+    width: 100%;
+ 
+    
+    align-content: center;
+    align-items: center;
+}
+legend{
+    color: #725AC1;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+}
+
+form {
+
+padding: 20px;
+
+background-color: #dedeff;
+border-radius: 10px;
+}
+.wrapper{
+    height:100vh ;
+    padding: 20px;
+    background-color: rgb(179, 179, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] , input[type="password"]{
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #818CF8 solid;
+    border-radius: 5px;
+    background: #e8e8e8;
+    color: #725AC1;
+    outline: none;
+    
+}
+
+
+select{
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #818CF8 solid;
+    border-radius: 5px;
+    background: #e8e8e8;
+    outline: none;
+}
+option{
+    color: #725AC1;
+  }
+
+  textarea{
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px #818CF8 solid;
+    border-radius: 5px;
+    background: #e8e8e8;
+    color: #725AC1;
+    outline: none;
+  }
+
+button {
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #725AC1;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #725AC1;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #725AC1;
+  }
+  
+  button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #725AC1;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
